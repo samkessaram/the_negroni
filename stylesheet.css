@@ -1,0 +1,198 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('Roboto-Regular-webfont.eot');
+    src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Regular-webfont.woff') format('woff'),
+         url('Roboto-Regular-webfont.ttf') format('truetype'),
+         url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('Roboto-Italic-webfont.eot');
+    src: url('Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Italic-webfont.woff') format('woff'),
+         url('Roboto-Italic-webfont.ttf') format('truetype'),
+         url('Roboto-Italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('Roboto-Bold-webfont.eot');
+    src: url('Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Bold-webfont.woff') format('woff'),
+         url('Roboto-Bold-webfont.ttf') format('truetype'),
+         url('Roboto-Bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+em {
+	font-family: robotoitalic;
+}
+
+strong {
+	font-family: robotobold;
+}
+
+body {
+	font-family: robotoregular;
+	margin-right: 125px;
+	margin-left: 125px;
+	background-color: white;
+	max-width: 1200px;
+	min-width: 1000px;
+	height: 1700px;
+}
+
+.jumbotron {
+	height: 550px;
+	width:1000px;
+	background-image: url("http://mrblack.co/wp-content/uploads/2014/01/mb_CDN.jpg");
+	background-position: 0px -50px;
+	background-size: cover;
+	background-color: black;
+	background-repeat: no-repeat;
+	opacity: .75;
+	transition: opacity 0.45s ease-in-out;
+}
+
+.jumbotron-click {
+	background-image: none;
+}
+
+.jumbotron:hover {
+	opacity: 1;
+}
+
+.jumbotron h2 {
+	text-align: center;
+	color: white;
+	padding-top: 250px;
+	font-size: 40px;
+	opacity: 1;
+}
+
+.text2 div {
+	display: inline-block;
+
+}
+
+.left-text {
+	float: left;
+}
+
+.right-text {
+	float: right;
+}
+
+.content {
+	margin-top: 80px;
+}
+
+.col1 {
+	float: left;
+	width: 30%;
+	margin-right: 5px;
+}
+
+.insert {
+	height: 500px;
+	width: 200px;
+	background-color: #D63333;
+	box-shadow: 4px 4px 10px gray;
+	padding: 10px;
+	margin-top: 50px;
+}
+
+.insert h4 {
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-left: 25px;
+}
+
+.insert ul {
+	font-size: 0.9em;
+	padding-right: 5px;
+	margin-top: -15px;
+	margin-left: -15px;
+}
+
+.insert li {
+	padding-top: 10px;
+}
+
+	
+.col2 {
+	display: inline-block;
+	width: 33%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.mouseover {
+	background-color: #E68585;
+}
+
+.col3 {
+	float: right;
+	width: 33%;
+	margin-top: 20px;
+	margin-left: 120px;
+	width:200px;
+	margin-bottom: 10px;
+}
+
+
+.container {
+	width: 200px;
+	height:200px;
+	opacity: 0.5;
+	overflow: hidden;
+	border-radius: 50%;
+	transition:-webkit-transform 1s ease-in-out, opacity 1s ease-in-out;
+	transition:-moz-transform 1s ease-in-out, opacity 1s ease-in-out;
+	transition:transform 1s ease-in-out, opacity 1s ease-in-out;
+	margin-top: 50px;
+
+}
+
+
+.container:hover {
+	-webkit-transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+	transform:rotateY(180deg);
+	opacity: 1;
+}
+
+.img1 {
+	width:600px;
+}
+
+.img2 {
+	width:300px;
+	margin-top: 0px;
+	transform:rotateY(180deg);
+}
+
+.img3 {
+	width:200px;
+	margin-top: -20px;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+.button {
+	font-size: 11px;
+	float: right;
+	margin-top: -60px;
+}
+
+
+
